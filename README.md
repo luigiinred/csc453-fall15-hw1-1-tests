@@ -1,5 +1,15 @@
 # csc453-fall15-hw1-1-tests
 
-myhtml2txt: $(OFILES)
-	$(CC) $(CFLAGS) $(OFILES) -ll -o myhtml2txt
-	(cd csc453-fall15-hw1-1-tests && ./run.zsh)  <--- Add this
+Clone this into your project's root
+
+```sh
+git clone git@github.com:luigiinred/csc453-fall15-hw1-1-tests.git
+```
+
+Add this command for myhtml2txt:
+
+```sh
+(cd csc453-fall15-hw1-1-tests && ./run.zsh)
+```
+
+Your output and the output of diff will be saved into each test's directory.
